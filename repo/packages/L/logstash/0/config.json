@@ -5,12 +5,12 @@
       "properties":{
         "cpu":{
           "default":"0.1",
-          "description":"The amount of CPU resources to allocate to each Logstash instance.",
+          "description":"The amount of CPU resources to allocate to each Logstash instance. ",
           "type":"string"
         },
         "mem":{
           "default":"512",
-          "description":"The amount of CPU resources to allocate to each Logstash instance.",
+          "description":"The amount of memory, in MB, allocated to allocate to each Logstash instance.",
           "type":"string"
         },
         "instances":{
